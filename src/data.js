@@ -1,6 +1,7 @@
 import dashboardImg from './assets/Dashboard.png';
 import image2Img from './assets/image2.png';
 import image3Img from './assets/image3.png';
+import image4Img from './assets/image4.png';
 import profileImg from './assets/Profile.png';
 
 export const profileData = {
@@ -9,7 +10,7 @@ export const profileData = {
   handle: "gauri_1669",
   bio: "B.Tech CSE (AI) ’28 | Aspiring Data Analyst & Machine Learning Enthusiast | Turning data into insights and ideas into impact.",
   stats: {
-    posts: 3,
+    posts: 4,
     followers: "10.5K",
     following: 120
   },
@@ -23,7 +24,8 @@ export const highlightsData = [
 export const projectsData = [
   { id: 1, title: "International Student Career Outcome Analysis", description: "Analyzed 300K+ graduate career records using Python and built an interactive Tableau dashboard to uncover trends in employment, salaries, and career outcomes.", image: `var(--bg-elevated) url(${dashboardImg}) center/contain no-repeat`, likes: 342, comments: 12, github: "https://github.com/gaurimehrotra1623/International-Student-Career-Outcomes-Analysis-Python-Tableau-", live: "https://public.tableau.com/app/profile/gauri.mehrotra/viz/InternationalGraduateCareerOutcomesDashboard/Dashboard1?publish=yes"},
   { id: 2, title: "Apple Inc. Stock Performance Analysis (3-Year EDA with Risk Metrics & Visualization) ", description: "Analyzed 752 days of AAPL stock data using Python to engineer financial indicators, assess risk metrics, and uncover market trends through data-driven visualizations.", image: `var(--bg-elevated) url(${image2Img}) center/contain no-repeat`, likes: 512, comments: 28, github: "https://github.com/gaurimehrotra1623/Apple-Stock-Market-Analysis-2022-24"},
-  { id: 3, title: "Oliver – Personal Voice Assistant", description: "Your very own voice assistant.", image: `var(--bg-elevated) url(${image3Img}) center/contain no-repeat`, likes: 210, comments: 5, github: "https://github.com/gaurimehrotra1623/Oliver", live: "https://oliver-murex-five.vercel.app/" }
+  { id: 3, title: "Oliver – Personal Voice Assistant", description: "Your very own voice assistant.", image: `var(--bg-elevated) url(${image3Img}) center/contain no-repeat`, likes: 210, comments: 5, github: "https://github.com/gaurimehrotra1623/Oliver", live: "https://oliver-murex-five.vercel.app/" },
+  { id: 4, title: "Supply Chain Delay Root Cause Analysis", description: "Analyzed shipment delays across a logistics network using Python and built an interactive Tableau dashboard to identify carrier bottlenecks, quantify delay impact, and recommend operational improvements.", image: `var(--bg-elevated) url(${image4Img}) center/contain no-repeat`, likes: 287, comments: 9, github: "https://github.com/gaurimehrotra1623/Supply-Chain-Delay-Root-Cause-Analysis", live: "https://public.tableau.com/app/profile/gauri.mehrotra/viz/SupplyChainDelayRootCauseAnalysis/Dashboard1?publish=yes" }
 ];
 
 export const skillsReelsData = [
